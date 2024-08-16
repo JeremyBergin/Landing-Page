@@ -34,7 +34,17 @@ ul {
 
 .secondary {
     font-size: 18px;
-    color: #e5e7eb
+    text-decoration: none;
+    color:#e5e7eb
+}
+
+.secondary:hover {
+    color:#3882f6;
+}
+
+.herotwo {
+    color:#e5e7eb;
+    font-size: 18px;
 }
 
 .random{
@@ -42,9 +52,16 @@ ul {
     align-items: center;
     justify-content: center;
     font-weight: 900;
-    padding: 16px;
+    padding: 16px ;
     font-size: 36px;
     color: #1f2937;
+}
+
+.squareimg {
+    max-width: 160px;
+    height: auto;
+    border: solid 1px #3882f6;
+    margin: 8px 16px;
 }
 
 .logo {
@@ -60,6 +77,7 @@ ul {
     justify-content: space-between;
     flex-direction: column;
     flex-wrap: wrap;
+    padding: 32px 128px;
 }
 
 .quote {
@@ -68,7 +86,15 @@ ul {
     font-style: italic;
     color:#1f2937;
     display: flex;
-    padding: 8px 32px;
+    padding: 64px 150px;
+}
+
+.action {
+    color:#f9faf8;
+    background-color: #3882f6;
+    padding: 16px 32px;
+    margin: 32px 90px;
+    border-radius: 8px;
 }
 
 .footer {
@@ -86,7 +112,7 @@ button {
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 8px;
-    border: solid #1f2937 1px;
+    border: solid #f9faf8 1px;
     padding: 5px;
     margin: 5px;
 }

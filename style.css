@@ -15,7 +15,7 @@ body {
     flex: 1;
     justify-content: space-between;
     align-items: baseline;
-    padding: 0px 16px;
+    padding: 0px 64px;
     margin: 0;
 }
 
@@ -29,7 +29,8 @@ ul {
 .hero {
     font-size: 48px;
     font-weight: 900;
-    color: #f9faf8
+    color: #f9faf8;
+    max-width: 300px;
 }
 
 .secondary {
@@ -45,23 +46,50 @@ ul {
 .herotwo {
     color:#e5e7eb;
     font-size: 18px;
+    max-width: 375px;
+}
+
+.heroimg {
+    display: flex;
+    max-width: 800px;
+    height: auto;
+    flex: 1;
+    min-width: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .random{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-weight: 900;
     padding: 16px ;
     font-size: 36px;
     color: #1f2937;
 }
 
+.middle {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.middletext {
+    display: flex;
+    flex: 1;
+    max-width: 180px;
+    padding: 16px 48px;
+}
+
 .squareimg {
-    max-width: 160px;
+    max-width: 240px;
+    min-width: 0;
     height: auto;
     border: solid 1px #3882f6;
     margin: 8px 16px;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -73,11 +101,16 @@ ul {
     background-color: #1f2937;
     color: white;
     display: flex;
+    flex-direction: row;
+    padding: 32px 120px;
+    gap: 16px;
+}
+
+.tcontainer {
+    display: flex;
     flex: 1;
     justify-content: space-between;
     flex-direction: column;
-    flex-wrap: wrap;
-    padding: 32px 128px;
 }
 
 .quote {
@@ -95,6 +128,16 @@ ul {
     padding: 16px 32px;
     margin: 32px 90px;
     border-radius: 8px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.acontainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
 }
 
 .footer {

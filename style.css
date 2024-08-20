@@ -161,3 +161,16 @@ button {
     padding: 5px;
     margin: 5px;
 }
+
+.limitedlinks {
+    color: #1f2937;
+    text-decoration: none;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.limitedlinks:hover {
+    color: #3882f6;
+}
